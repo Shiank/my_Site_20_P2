@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;600;700&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+
+h1{
+    font-family: Raleway, Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+h2, a{
+    font-family: Raleway, Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: #BB9F06;
+}
+
+.semi-head{
+    font-family: Raleway 700, Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    color: #BB9F06;
+}
+
+.center-text{
+    color: #F9F8F8;
+    text-align: center;
+}
+
+.Insights{
+    color: #F9F8F8; 
+    font-family: raleway, Arial, Helvetica, sans-serif;
+}
+
+.prob-text{
+    color: black;
+}
+
+.prob-head{
+    margin-bottom: 50px;
+}
+
+p{
+    font-family: Raleway, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+li{
+    font-family: Raleway, Arial, Helvetica, sans-serif;
+    font-weight: 300;
+}
+
+.customNav {
+    position: fixed;
+    width: 100%;
+    background-color: #243119 !important;
+    background-size: cover;
+    z-index: 10;
+  }
+
+.navbar-nav{
+    margin-left: auto;
+    margin-right: 0 !important;
+  }
+  .navbar-brand img {
+    padding-right: 15px;
+    width: 250px;
+  }
+
+  .nav-item {
+    margin: 0px 15px;
+  }
+
+  .customNav a {
+    color: #BB9F06 !important;
+    font-family: raleway, Arial, Helvetica, sans-serif;
+    font-weight: 600;
+  }
+
+  .jumbotron {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+  }
+
+  .intro{
+    display: flex;
+    height: 400px;
+    padding: 25px;
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    margin-left: 13%;
+}
+
+.wolf{
+    height: 300px;
+}
+
+.content-left{
+    justify-content: flex-start;
+    order: 1;
+    width: 400px;
+}
+
+.content-right{
+    justify-content: flex-end;
+    order: 2;
+}
+
+ .card, .Empathy-Map{
+    width: 85%;
+    margin: 0 auto;
+ }
+
+ .back-card{
+    width: 85%;
+    margin-bottom: 30px;
+    background-color: #243119;
+    border-radius: 80px;
+    padding: 50px;
+    margin-bottom: 100px;
+    margin-left: 10%;
+}
+
+.problem-state, .hypo-state, .user-state, 
+.Emp-state, .container-fluid, .story {
+    width: 85%;
+    margin-bottom: 100px;
+    margin-left: 10%;
+}
+
+.card-body{
+    background-color: #F9F8F8;
+    border: 2px solid #BB9F06;
+    padding: 20px;
+    border-radius: 15px;
+    height: 360px;
+    box-shadow: 5px 5px #c9c5c0;
+}
+
+.card-title{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.story {
+    height: 860px;
+}
+
+.img{
+    height: 500px;
+    box-shadow: 5px 5px #8b8986;
+}
+
+.img-space{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.wolf-S{
+    height: 150px;
+}
+
+footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+@media screen and (max-width:600px){
+    
+    p{
+        font-size: 11px;
+    }
+    
+    h1{
+        text-align: center;
+    }
+    
+    .content{
+        flex-direction: column;
+        width: 72%;
+    }
+
+    .card-body{
+        height: 250px;
+    }
+
+    .story {
+        height: 400px;
+    }
+
+    .img{
+        height: 300px;
+    }
+
+    .img-space{
+        flex-direction: column;
+        display: flex;
+        justify-items:center;
+        align-items: center;
+    }
+    
+    }
